@@ -64,8 +64,8 @@ form{
 
 input {
     width: 90%;
+    border: .0625rem solid var(--fouthary-color); 
     border-radius: .3125rem;
-    border: 1px solid var(--fifthary-color);
     padding: .9375rem .625rem;
     margin: .3125rem 0;
 }
@@ -101,6 +101,35 @@ form button:hover, form button:focus{
     background-color: var(--secondary-color-lighter);
 }
 
+.is-invalid{
+    border: 2px solid red;
+}
+
+.error-message{
+    font-size: .625rem;
+    color: red;
+}
+
+label{
+    position: relative;
+    width: 100%;
+    text-align: right;
+    margin-right: 1%;
+}
+
+label > .icon {
+position: absolute;
+top: 35%;
+right: 1.5625rem;
+transform: translateY(-50%);
+}
+
+label span{
+    display: block;
+    padding: 0 0 .625rem 0;
+}
+
+
 @media (min-width: 1000px) {
     body{
         background-image: url("/images/bg-intro-desktop.png");
@@ -129,5 +158,9 @@ form button:hover, form button:focus{
 
     .overview h1{
         font-size: 2.5rem;
+    }
+
+    label{
+        margin-right: 6%;
     }
 }
