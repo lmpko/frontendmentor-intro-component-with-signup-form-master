@@ -7,6 +7,8 @@
 
     --fouthary-color: hsl(249, 10%, 26%) ;
     --fifthary-color: hsl(246, 25%, 77%);
+
+    --secondary-color-darker: hsl(154, 58%, 36%);
 }
 
 body{
@@ -44,5 +46,50 @@ main{
 
 .offer span{
     color: white;
+    font-weight: 700;
+}
+
+form{
+    background-color: white;
+    border-radius: .9375rem;
+    padding: .9375rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 10px 2px 0px rgba(0,0,0,0.17);
+}
+
+input {
+    width: 90%;
+    border-radius: .3125rem;
+    border: 1px solid var(--fifthary-color);
+    padding: .9375rem .625rem;
+    margin: .3125rem 0;
+}
+
+form button{
+    width: 97%;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: var(--secondary-color);
+    border: none;
+    border-bottom: 3px solid var(--secondary-color-darker);
+    padding: .9375rem 1.875rem;
+    border-radius: .3125rem;
+    margin-top: 0.3125rem;
+}
+
+form p{
+    width: 90%;
+    text-align: center;
+    color: var(--fifthary-color);
+    font-weight: 400;
+    font-size: .75rem;
+}
+
+form p span{
+    color: var(--primary-color);
     font-weight: 700;
 }

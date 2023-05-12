@@ -9,7 +9,7 @@ const FormComponent = () => {
         <input type="" name="" value="" placeholder='Password'/>
         <button>Claim your free trial</button>
         <p>
-            By clicking the button, you are agreeing to our Terms and Services
+            By clicking the button, you are agreeing to our <span>Terms and Services</span> 
         </p>
     </form>
   )
