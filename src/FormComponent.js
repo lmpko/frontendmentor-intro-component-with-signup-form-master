@@ -74,7 +74,7 @@ const FormComponent = () => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <label htmlFor="firstName">
+      <label htmlFor="firt-name">
         {formSubmitted && firstName.trim() === '' && <img src={errorIMG} alt="alert-icon" className='icon'/>}
 
         <input id="first-name" type="text" name="firstName" value={firstName} onChange={(e) => {
@@ -86,7 +86,7 @@ const FormComponent = () => {
       </label>
 
         
-      <label htmlFor="lastName">
+      <label htmlFor="last-name">
         {formSubmitted && lastName.trim() === '' && <img src={errorIMG} alt="alert-icon" className='icon'/>}
 
         <input id="last-name" type="text" name="lastName"  value={lastName}onChange={(e) => {
