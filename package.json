@@ -1,0 +1,29 @@
+{
+  "name": "intro-component-with-signup-form-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Intro component with sign up form coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmpko/frontendmentor-intro-component-with-signup-form-master.git"
+  },
+  "author": "lmp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lmpko/frontendmentor-intro-component-with-signup-form-master/issues"
+  },
+  "homepage": "https://github.com/lmpko/frontendmentor-intro-component-with-signup-form-master#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  }
+}
