@@ -9,6 +9,7 @@
     --fifthary-color: hsl(246, 25%, 77%);
 
     --secondary-color-darker: hsl(154, 58%, 36%);
+    --secondary-color-lighter: hsl(154, 59%, 65%);
 }
 
 body{
@@ -92,4 +93,40 @@ form p{
 form p span{
     color: var(--primary-color);
     font-weight: 700;
+}
+
+form button:hover, form button:focus{
+    cursor: pointer;
+    background-color: var(--secondary-color-lighter);
+}
+
+@media (min-width: 1000px) {
+    body{
+        background-image: url("/images/bg-intro-desktop.png");
+    }
+
+    main{
+        display: flex;
+        flex-direction: row;
+        width: 69.6875rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-section{
+        width: 33.4375rem;
+    }
+
+    form button{
+        width: 94%;
+    }
+
+    .overview{
+        width: 33.4375rem;
+        text-align: start;
+    }
+
+    .overview h1{
+        font-size: 2.5rem;
+    }
 }

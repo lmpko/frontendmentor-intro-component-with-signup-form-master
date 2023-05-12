@@ -12,8 +12,11 @@ const IntroComponent = () => {
                 but understanding how developers think is invaluable. 
             </p>
         </section>
-        <OfferComponent/>
-        <FormComponent/>
+        <section className='form-section'>
+          <OfferComponent/>
+          <FormComponent/>
+        </section>
+       
     </>
   )
 }
