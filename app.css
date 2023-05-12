@@ -118,10 +118,10 @@ label{
 }
 
 label > .icon {
-position: absolute;
-top: 35%;
-right: 1.5625rem;
-transform: translateY(-50%);
+    position: absolute;
+    top: 39%;
+    right: 1.5625rem;
+    transform: translateY(-50%);
 }
 
 label span{
