@@ -5,7 +5,7 @@ import FormComponent from './FormComponent'
 const IntroComponent = () => {
   return (
     <>
-        <section>
+        <section className='overview'>
             <h1>Learn to code by watching others</h1>
             <p>
                 See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 

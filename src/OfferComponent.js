@@ -2,7 +2,7 @@ import React from 'react'
 
 const OfferComponent = () => {
   return (
-    <div> Try it free 7 days then $20/mo. thereafter</div>
+    <div className='offer'> <span>Try it free 7 days</span>  then $20/mo. thereafter</div>
   )
 }
 
