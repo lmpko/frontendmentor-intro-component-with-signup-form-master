@@ -74,7 +74,7 @@ const FormComponent = () => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <label htmlFor="firt-name">
+      <label htmlFor="first-name">
         {formSubmitted && firstName.trim() === '' && <img src={errorIMG} alt="alert-icon" className='icon'/>}
 
         <input id="first-name" type="text" name="firstName" value={firstName} onChange={(e) => {
