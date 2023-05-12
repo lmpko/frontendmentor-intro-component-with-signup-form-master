@@ -143,6 +143,10 @@ label span{
         align-items: center;
     }
 
+    form{
+        padding: 1.875rem;
+    }
+
     .form-section{
         width: 33.4375rem;
     }
@@ -162,5 +166,7 @@ label span{
 
     label{
         margin-right: 6%;
+        margin-top: .9375rem;
+        margin-bottom: .9375rem;
     }
 }
